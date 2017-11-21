@@ -25,7 +25,7 @@ job("ansible-deployment") {
         }
         git {
             remote {
-                url("${gitBaseUrl}/cdpipeline-ansible-roles")
+                url("${gitBaseUrl}/meetup-cdpipeline-ansible-roles")
                 credentials(gitCredentials)
             }
             branch('master')
