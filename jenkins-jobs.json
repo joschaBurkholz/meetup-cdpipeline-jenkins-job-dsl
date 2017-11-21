@@ -1,0 +1,29 @@
+[{
+  "name": "cdpipeline-docker-jdk",
+  "ssh_url_to_repo": "git@github.com:joschaBurkholz/meetup-cdpipeline-docker-jdk.git",
+  "type": "docker"
+},{
+  "name": "cdpipeline-docker-jre",
+  "ssh_url_to_repo": "git@github.com:joschaBurkholz/meetup-cdpipeline-docker-jre.git",
+  "type": "docker"
+},{
+  "name": "cdpipeline-docker-openldap",
+  "ssh_url_to_repo": "git@github.com:joschaBurkholz/meetup-cdpipeline-docker-openldap.git",
+  "type": "docker"
+},{
+  "name": "cdpipeline-docker-sonarqube",
+  "ssh_url_to_repo": "git@github.com:joschaBurkholz/meetup-cdpipeline-docker-sonarqube.git",
+  "type": "docker"
+},{
+  "name": "cdpipeline-docker-jenkins-master",
+  "ssh_url_to_repo": "git@github.com:joschaBurkholz/meetup-cdpipeline-docker-jenkins-master.git",
+  "type": "docker"
+},{
+  "name": "cdpipeline-docker-nexus",
+  "ssh_url_to_repo": "git@github.com:joschaBurkholz/meetup-cdpipeline-docker-nexus.git",
+  "type": "docker"
+},{
+  "name": "helloworld",
+  "ssh_url_to_repo": "git@github.com:joschaBurkholz/meetup-hello-world.git",
+  "type": "maven"
+}]
