@@ -91,6 +91,7 @@ projects.each { project ->
                     mavenOpts('-Xms512m')
                     mavenOpts('-Xmx1536m')
                 }
+                shell(readFileFromWorkspace('scripts/wait-for-sonar-analysis.sh'))
             }
         }
         publishers {
