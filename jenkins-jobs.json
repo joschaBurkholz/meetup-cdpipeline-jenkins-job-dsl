@@ -23,6 +23,11 @@
   "ssh_url_to_repo": "git@github.com:joschaBurkholz/meetup-cdpipeline-docker-nexus.git",
   "type": "docker"
 },{
+  "name": "helloworld-parent",
+  "ssh_url_to_repo": "git@github.com:joschaBurkholz/meetup-hello-world-parent.git",
+  "type": "maven",
+  "library": true
+},{
   "name": "helloworld",
   "ssh_url_to_repo": "git@github.com:joschaBurkholz/meetup-hello-world.git",
   "type": "maven"
