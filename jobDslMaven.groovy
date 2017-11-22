@@ -57,7 +57,7 @@ projects.each { project ->
                             }
                             actions {
                                 downstreamParameterized {
-                                    trigger(project.promotionJob ?: 'tippsaison-deployment-for-promote') {
+                                    trigger(project.promotionJob ?: 'meetup-deployment-for-promote') {
                                         block {
                                             buildStepFailure('FAILURE')
                                             failure('FAILURE')
