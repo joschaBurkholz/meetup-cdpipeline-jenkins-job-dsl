@@ -1,7 +1,8 @@
 #!/bin/bash
 url=$(cat $WORKSPACE/target/sonar/report-task.txt |grep ceTaskUrl |cut -f2,3 -d '=')
 serverUrl=$(cat $WORKSPACE/target/sonar/report-task.txt |grep serverUrl |cut -f2,3 -d '=')
-
+echo "Url: ${url}"
+echo "ServerUrl: ${serverUrl}"
 status="UNKNOWN"
 count=1
 
