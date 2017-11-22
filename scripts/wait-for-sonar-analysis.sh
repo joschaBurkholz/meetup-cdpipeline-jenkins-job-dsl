@@ -8,7 +8,7 @@ count=1
 until [[ "$status" == "SUCCESS" || "$status" == "CANCELED" || "$status" == "FAILED" || $count -gt 30 ]]
 do
 	echo "Status ${status} - Abfrage Sonar-Task Nr ${count} - curl ${url}"
-	result=$(curl -u admin:2EAmr4VJGdLEX39LnBLHSTEgF4osFq6VK7RQSPhuTVrqMmkDSzUQZcxXKeJ24fr6 $url)
+	result=$(curl -u admin:admin $url)
 	status=$(echo "$result" |jq .task.status|sed -e 's/^"//' -e 's/"$//')
 	sleep 1s
 	count=$((count+1))
