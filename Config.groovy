@@ -8,10 +8,10 @@ class Config {
                 gitBaseUrl             : "git@github.com:joschaBurkholz",
                 gitCredentials         : "github_ssh_keys",
                 httpProxyBuildArg      : "",
-                nexusUrl               : "http://nexus.joscha-burkholz.de",
-                targetReleaseRepoUrl   : "http://nexus.joscha-burkholz.de/content/repositories/releases",
-                targetThirdpartyRepoUrl: "http://nexus.joscha-burkholz.de/content/repositories/thirdparty",
-                targetSnapshotRepoUrl  : "http://nexus.joscha-burkholz.de/content/repositories/snapshots",
+                nexusUrl               : "http://joscha-burkholz.de:8081",
+                targetReleaseRepoUrl   : "http://joscha-burkholz.de:8081/content/repositories/releases",
+                targetThirdpartyRepoUrl: "http://joscha-burkholz.de:8081/content/repositories/thirdparty",
+                targetSnapshotRepoUrl  : "http://joscha-burkholz.de:8081/content/repositories/snapshots",
                 "environments"         : [
                         [
                                 stage                 : 'dev',
